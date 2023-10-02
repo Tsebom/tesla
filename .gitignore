@@ -1,1 +1,4 @@
+node_modules
+
 #ftp_settings.json
+package-lock.json
