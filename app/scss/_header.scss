@@ -1,0 +1,28 @@
+.header {
+
+	&__nav {
+		padding-top: 36px;
+	}
+
+	&__logo {
+		display: block;
+		max-width: 240px;
+	}
+
+	&__info {
+		padding-top: 30px;
+
+		&-title {
+			@extend %title_0;
+			@extend %text_wight;
+		}
+
+		&-text {
+			@extend %text_regular;
+			@extend %text_wight;
+			max-width: 284px;
+			padding-top: 40px;
+			padding-bottom: 25px;
+		}
+	}
+}

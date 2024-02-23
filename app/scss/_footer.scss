@@ -1,0 +1,24 @@
+.footer {
+	@extend %bg-color_red;
+	border-top: 1px solid #ffffff;
+	padding-top: 83px;
+
+	&__btn {
+		margin: 0 auto 83px auto;
+	}
+
+	&__nav {
+		padding-bottom: 20px;
+		margin: 0 auto;
+	}
+
+	&__link {
+		@extend %text_bold;
+		@extend %text_wight;
+		padding: 0 12px;
+	}
+}
+
+.footer__item + .footer__item {
+	border-left: 2px solid #ffffff;
+}

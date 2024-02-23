@@ -50,6 +50,7 @@ body {
 
 body {
 	font-size: 1rem;
+	@extend %bg-color_black;
 }
 
 body,
@@ -96,7 +97,7 @@ a{
   text-decoration: none;
 }
 
-.wraper {
+.wrapper {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
@@ -107,5 +108,5 @@ a{
 }
 
 .footer {
-	flex: 1 0 auto;
+	flex: 0 0 auto;
 }

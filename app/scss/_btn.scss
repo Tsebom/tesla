@@ -1,0 +1,16 @@
+.button {
+	@include no-btn;
+	background-color: rgb(255, 255, 255, 15%);
+	border: 1px solid #ffffff;
+
+	&__link {
+		@extend %text_bold;
+		@extend %text_wight;
+		display: block;
+		padding: 30px 62px;
+	}
+}
+
+.button:hover {
+	@extend %bg-color_red;
+}
