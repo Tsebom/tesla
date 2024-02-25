@@ -1,5 +1,5 @@
 //for plagins' js code
-const plugins = []
+const plugins = ['node_modules/swiper/swiper-bundle.min.js']
 
 const {src, dest} = require('gulp')
 

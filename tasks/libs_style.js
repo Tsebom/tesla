@@ -1,5 +1,5 @@
 //create plugins' css file
-const plugins = []
+const plugins = ['node_modules/swiper/swiper-bundle.min.css']
 
 const map = require('gulp-sourcemaps')
 const scss = require('gulp-sass')(require('sass'))
