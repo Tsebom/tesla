@@ -4,11 +4,33 @@
 	margin: 0 auto;
 }
 
+.swiper::after {
+	content: '';
+	position: absolute;
+	background: rgb(21, 21, 21, .3);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 5;
+}
+
+.swiper-pagination {
+	text-align: left;
+}
+
 .swiper-pagination-bullet {
 	width: 15px;
-	height: 15px;background-color: #020202;
-	opacity: 1;
-	bottom: 26px;
+	height: 15px;
+	background-color: #020202;
+	opacity: 1;	
 	border-radius: 50%;
-	margin: 0 15px;
+}
+
+.swiper-pagination-bullet:hover {
+	opacity: 0.75;	
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #ffffff;
 }

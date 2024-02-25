@@ -1,11 +1,14 @@
 .header {
-
+	&__content {
+		position: absolute;
+		width: 100%;
+		z-index: 8;
+	}
 	&__nav {
 		padding-top: 36px;
 	}
 
 	&__logo {
-		display: block;
 		max-width: 240px;
 	}
 
