@@ -12,12 +12,46 @@
 				"logo": "images/sprite.svg#sprite--logo"
 			})
 			<main class="main">
-				<div class="slider">
+				<section class="slider">
 					@@include('components/page-blocks/_slider.html')
-				</div>
-				<div class="container">
-					
-				</div>
+				</section>
+				<section class="feature">
+					<div class="container flex --just-space">
+						@@include('components/bem-blocks/_feature.html', {
+							"title": "Двигатель",
+							"number": "2,1",
+							"upindex": "",
+							"measure": "сек",
+							"feature": "разгон до 100 км"
+						})
+						@@include('components/bem-blocks/_feature.html', {
+							"title": "Батарея",
+							"number": "1000",
+							"upindex": "",
+							"measure": "км",
+							"feature": "запас хода"
+						})
+						@@include('components/bem-blocks/_feature.html', {
+							"title": "Скорость",
+							"number": "400",
+							"upindex": "+",
+							"measure": "км/ч",
+							"feature": "макс скорость"
+						})
+					</div>
+				</section>
+				<section class="video">
+					<div class="container">
+						<iframe 
+							width="1200" 
+							height="400" 
+							src="https://www.youtube.com/embed/tw4jkyfY4HE?si=DLcaAmf1HCL6E4jX" 
+							title="YouTube video player" 
+							frameborder="0" 
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+						</iframe>
+					</div>
+				</section>
 			</main>
 			@@include('components/page-blocks/_footer.html')
 		</div>

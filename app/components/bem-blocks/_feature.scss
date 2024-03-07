@@ -1,0 +1,34 @@
+.feature__item {
+	@extend %text_wight;
+	text-align: center;
+	padding: 100px 0 ;
+	
+
+	&-title {
+		@extend %text_regular;
+		margin-bottom: 19px;
+	}
+
+	&-number {
+		@extend %title_0;
+		margin-bottom: 7px;
+	}
+
+	&-upindex {
+		@extend %text_regular;
+		position: relative;
+		top: -140px;
+		left: 60px;
+	}
+
+	&-measure {
+		@extend %text_regular;
+		position: relative;
+		left: -15px;
+	}
+
+	&-feature {
+		@extend %text_regular;
+		@extend %text_red;
+	}
+}
