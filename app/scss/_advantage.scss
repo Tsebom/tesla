@@ -1,0 +1,44 @@
+.advantage__items {
+	@extend %text_regular;
+	@extend %text_wight;
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 100px;
+	}
+
+	&__item-revers {
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+
+	&__item-info {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		flex-grow: 1;
+	}
+
+	&__item-title {
+		@extend %title_1;
+		@extend %text_red;
+		position: absolute;
+		top: 0;
+	}
+
+	&__item-title-revers {
+		@extend %title_1;
+		@extend %text_red;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+
+	}
+
+	&__item-img-revers {
+		margin-right: 58px;
+	}
+}
+

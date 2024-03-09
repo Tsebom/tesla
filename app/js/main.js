@@ -1,3 +1,7 @@
+const imgVideo = document.querySelector('.video__img')
+const imgIframe = document.querySelector('.video__iframe')
+
+
 const swiper = new Swiper('.swiper', {
   // Optional parameters
 	effect: 'fade',
