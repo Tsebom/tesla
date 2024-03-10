@@ -1,9 +1,10 @@
 .video {
+	@extend %bg-color_black;
 	position: relative;
 	margin-bottom: 100px;
 }
 
-.video::after {
+.video__iframe::after {
 	content: '';
 	position: absolute;
 	background: rgb(21, 21, 21, .3);
@@ -15,10 +16,11 @@
 }
 
 .video__iframe {
-	position: absolute;
 	z-index: -1;
 }
 
 .video__img {
+	position: absolute;
+	top: 0;
 	z-index: 2;
 }

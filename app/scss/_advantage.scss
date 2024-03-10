@@ -1,6 +1,8 @@
-.advantage__items {
-	@extend %text_regular;
-	@extend %text_wight;
+.advantage {
+	&__items {
+		@extend %text_regular;
+		@extend %text_wight;
+	}
 
 	&__item {
 		display: flex;
